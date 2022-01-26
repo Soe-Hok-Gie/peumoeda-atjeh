@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="#">
           Peumoeda Atjeh
@@ -11,7 +11,7 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 Home
