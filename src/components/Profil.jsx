@@ -1,13 +1,12 @@
 import React from "react";
+import "./Profil.css";
 
 const Profil = () => {
   return (
-    <section class="jumbotron">
-      <div class="container text-center">
-        <img src="assets/profil.png" width="25%" class="rounded-circle img-thumbnail" />
-        <h1 class="display-4"> Peumoeda Atjeh</h1>
-        <p class="lead">Developer | Bachelor of Applied Computer</p>
-      </div>
+    <section className="jumbotron text-center">
+      <img src="assets/profil.png" width="25%" className="rounded-circle img-thumbnail" />
+      <h1 className="display-4"> Peumoeda Atjeh</h1>
+      <p className="lead">Developer | Bachelor of Applied Computer</p>
     </section>
   );
 };
