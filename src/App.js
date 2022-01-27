@@ -5,8 +5,8 @@ import Profil from "./components/Profil";
 const App = () => {
   return (
     <>
-      <Navbar />;
-      <Profil />;
+      <Navbar />
+      <Profil />
     </>
   );
 };
