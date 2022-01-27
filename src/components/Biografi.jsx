@@ -2,7 +2,7 @@ import React from "react";
 
 const Biografi = () => {
   return (
-    <section id="Biografi">
+    <section id="biografi">
       <div className="container">
         <div className="row text-center my-5">
           <div className="col">
