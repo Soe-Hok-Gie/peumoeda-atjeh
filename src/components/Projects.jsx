@@ -1,4 +1,23 @@
 import React from "react";
+import CardProjects from "./CardProjects";
+
+const Dataproject = [
+  {
+    id: 1,
+    img: "assets/1.png",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    id: 2,
+    img: "assets/kesehatan.png",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    id: 3,
+    img: "assets/team.png",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+];
 
 const Projects = () => {
   return (
@@ -9,31 +28,10 @@ const Projects = () => {
             <h2>Project</h2>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-4">
-            <div class="card">
-              <img src="assets/1.png" class="card-img-top" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card">
-              <img src="assets/1.png" class="card-img-top" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card">
-              <img src="assets/1.png" class="card-img-top" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
+        <div class="row mb-4">
+          {Dataproject.map((items) => {
+            return <CardProjects img={items.img} desc={items.desc} />;
+          })}
         </div>
       </div>
     </section>

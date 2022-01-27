@@ -4,7 +4,7 @@ const Biografi = () => {
   return (
     <section id="biografi">
       <div className="container">
-        <div className="row text-center my-5">
+        <div className="row text-center my-3">
           <div className="col">
             <h2>About Us</h2>
           </div>
