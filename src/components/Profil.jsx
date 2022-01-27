@@ -6,7 +6,7 @@ const Profil = () => {
     <section className="jumbotron text-center">
       <img src="assets/profil.png" width="25%" className="rounded-circle img-thumbnail" />
       <h1 className="display-4"> Peumoeda Atjeh</h1>
-      <p className="lead">Developer | Bachelor of Applied Computer</p>
+      <p className="lead">FrontEnd | Bachelor of Applied Computer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#00cba9"
