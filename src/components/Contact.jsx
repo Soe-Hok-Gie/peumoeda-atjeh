@@ -9,8 +9,8 @@ const Contact = () => {
             <h2>contact us</h2>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-8">
+        <div className="row justify-content-center">
+          <div className="col-md-4">
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">
