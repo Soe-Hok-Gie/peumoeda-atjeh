@@ -9,7 +9,7 @@ const Biografi = () => {
             <h2>About Us</h2>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-around">
           <div className="col-md-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos error neque minima qui ea unde praesentium ab consequatur architecto?</p>
           </div>

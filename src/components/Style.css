@@ -1,8 +1,13 @@
 .jumbotron {
   padding-top: 2rem;
   /* background-color: antiquewhite; */
-  background-color: teal;
+  background-color: #69a69e;
 }
 #project {
   background-color: #f3f4f5;
+}
+
+.nav-teal {
+  /* background-color: antiquewhite; */
+  background-color: #d2c6a7;
 }

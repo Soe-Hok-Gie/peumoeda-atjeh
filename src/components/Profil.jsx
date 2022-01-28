@@ -3,7 +3,7 @@ import "./Style.css";
 
 const Profil = () => {
   return (
-    <section className="jumbotron text-center">
+    <section className="jumbotron text-center text-white">
       <img src="assets/profil.png" width="25%" className="rounded-circle img-thumbnail" />
       <h1 className="display-4"> Peumoeda Atjeh</h1>
       <p className="lead">FrontEnd | Bachelor of Applied Computer</p>
