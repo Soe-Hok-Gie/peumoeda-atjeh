@@ -11,3 +11,18 @@
   /* background-color: antiquewhite; */
   background-color: #69a69e;
 }
+
+.footer {
+  background-color: #765d69;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: medium;
+  padding-bottom: 10px;
+}
+/* .footer-p {
+  padding-bottom: 3px;
+} */
+.footer a {
+  color: whitesmoke;
+}

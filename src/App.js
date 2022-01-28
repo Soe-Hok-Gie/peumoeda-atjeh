@@ -1,6 +1,7 @@
 import React from "react";
 import Biografi from "./components/Biografi";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Profil from "./components/Profil";
 import Projects from "./components/Projects";
@@ -13,6 +14,7 @@ const App = () => {
       <Biografi />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 };
