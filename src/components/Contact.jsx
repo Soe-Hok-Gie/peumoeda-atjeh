@@ -25,9 +25,14 @@ const Contact = () => {
                 </label>
                 <input type="email" class="form-control" id="email" aria-describedby="email" />\{" "}
               </div>
-
+              <div class="mb-3">
+                <label for="pesan" class="form-label">
+                  Pesan
+                </label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
               <button type="submit" class="btn btn-primary">
-                Submit
+                Kirim
               </button>
             </form>
           </div>
