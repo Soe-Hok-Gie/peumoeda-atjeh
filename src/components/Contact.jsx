@@ -31,7 +31,7 @@ const Contact = () => {
                 </label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn">
                 Kirim
               </button>
             </form>

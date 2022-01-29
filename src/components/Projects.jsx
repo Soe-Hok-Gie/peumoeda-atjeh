@@ -38,12 +38,12 @@ const Projects = () => {
   return (
     <section id="project">
       <div className="container">
-        <div className="row text-center mb-3">
+        <div className="row text-center my-3">
           <div className="col">
             <h2>Project</h2>
           </div>
         </div>
-        <div class="row mb-4">
+        <div class="row ">
           {Dataproject.map((items) => {
             return <CardProjects img={items.img} desc={items.desc} />;
           })}
