@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 32px;
   /* background-color: antiquewhite; */
   background-color: #88c0b9;
 }
@@ -28,7 +28,7 @@
 }
 
 section {
-  padding-top: 7rem;
+  padding-top: 80px;
 }
 .btn {
   background-color: #69a69e;
