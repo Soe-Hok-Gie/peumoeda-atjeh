@@ -1,3 +1,9 @@
+/* .body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .jumbotron {
   padding-top: 32px;
   /* background-color: antiquewhite; */
@@ -28,7 +34,7 @@
 }
 
 section {
-  padding-top: 80px;
+  padding-top: 122px;
 }
 .btn {
   background-color: #69a69e;

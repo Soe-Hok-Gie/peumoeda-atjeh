@@ -23,7 +23,7 @@ const Contact = () => {
                   {" "}
                   Email
                 </label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />\{" "}
+                <input type="email" class="form-control" id="email" aria-describedby="email" />{" "}
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">
