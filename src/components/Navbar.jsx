@@ -1,50 +1,49 @@
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-light nav-teal shadow-sm sticky-top">
-//       <div className="container">
-//         <a className="navbar-brand" href="#">
-//           Peumoeda Atjeh
-//         </a>
-//         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-//           <span className="navbar-toggler-icon"></span>
-//         </button>
-//         <div className="collapse navbar-collapse" id="navbarNav">
-//           <ul className="navbar-nav ms-auto">
-//             <li className="nav-item">
-//               <a className="nav-link active" aria-current="page" href="#">
-//                 Home
-//               </a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link" href="#about">
-//                 About
-//               </a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link" href="#project">
-//                 Project
-//               </a>
-//             </li>
-//             <li className="nav-item">
-//               <a className="nav-link" href="#contact">
-//                 Contact
-//               </a>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 import React from "react";
 
-const Navbar = () => {
+const NavTop = () => {
   return (
-    <nav class="navbar navbar-dark bg-success navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <nav className="navbar navbar-expand-lg navbar-light nav-teal shadow-sm sticky-top">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          Peumoeda Atjeh
+        </a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#project">
+                Project
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+// navbar bawah, gunakan visible dan invisible pada bootstrap
+
+const NavMobile = () => {
+  return (
+    <nav class="nav-bawah navbar-dark bg-success navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
       <ul class="navbar-nav nav-justified w-100">
         <li class="nav-item">
           <a href="#" class="nav-link text-center">
@@ -55,7 +54,7 @@ const Navbar = () => {
             <span class="small d-block">Home</span>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-bwh-item">
           <a href="#about" class="nav-link text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
               <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -96,6 +95,15 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
+  );
+};
+
+const Navbar = () => {
+  return (
+    <>
+      <NavTop />
+      <NavMobile />
+    </>
   );
 };
 
