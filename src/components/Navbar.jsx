@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {/* nav mobile */}
-      <nav class="nav-bawah navbar-dark bg-success navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+      <nav class="nav-bawah navbar-light nav-teal navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
         <ul class="navbar-nav nav-justified w-100">
           <li class="nav-item">
             <a href="#" class="nav-link text-center">
@@ -81,15 +81,6 @@ const Navbar = () => {
                 />
               </svg>
               <span class="small d-block">Contact</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#footer" class="nav-link text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-              </svg>
-              <span class="small d-block">Footer</span>
             </a>
           </li>
         </ul>
