@@ -34,7 +34,8 @@
 }
 
 section {
-  padding-top: 122px;
+  /* padding-top: 122px; */
+  padding-top: 5rem;
 }
 .btn {
   background-color: #69a69e;
