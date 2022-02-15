@@ -2,7 +2,10 @@ import React from "react";
 
 const NavTop = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light nav-teal shadow-sm sticky-top">
+    <nav
+      className="navbar navbar-expand-lg navbar-light nav-teal shadow-sm sticky-top d-none d-md-block
+    "
+    >
       <div className="container">
         <a className="navbar-brand" href="#">
           Peumoeda Atjeh
@@ -54,7 +57,7 @@ const NavMobile = () => {
             <span class="small d-block">Home</span>
           </a>
         </li>
-        <li class="nav-bwh-item">
+        <li class="nav-item">
           <a href="#about" class="nav-link text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
               <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
